@@ -1,0 +1,109 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: white;
+    font-family: Geneva, sans-serif;
+    background-color: white;
+  }
+  
+  #tartalom {
+    background-color: rgba(4, 42, 63, 0.8);
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 900px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .keret {
+    padding: 0px 25px 0px 25px;
+    margin: auto 20px;
+  }
+  
+  .kepalairas {
+    font-size: 1.3em;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    line-height: 130%;
+  }
+  
+  table {
+    background-color: grey;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+  }
+  .cianbold{
+    font-weight: bold;
+  }
+  
+
+
+  .bg-fej {
+    background-color: black;
+    background-position: center;
+    padding-top: 75px;
+    height: 255px;
+  }
+  
+  .bg-fej h1{
+    color: white;
+    font-size: 500%;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-weight: bold;
+  }
+  
+  .container{
+    margin-bottom: 25px;
+  }
+  
+  .bg-torzs {
+    background-color:rgb(138, 138, 138);
+  }
+  
+  h3{
+    margin: 25px 0px;
+  }
+  
+  a,footer {
+    font-style: italic;
+    font-weight: bold;
+    color: darkblue;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  body{
+    color: #293647;
+  }
+  
+  h5{
+    text-align: justify;
+  }
+  
+  .bg-torzs2 {
+    border: 2px solid black
+  }
+  

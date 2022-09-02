@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vasúti menetjegy</title>
+</head>
+<body>
+	<form action="" method="get">
+		<label for="">Távolság: </label>
+		<input type="text" name="tavolsag" id="" pattern="[0-9]{2,}" placeholder="Minimum 2 jegyű szám" value="10">
+		<input type="number" name="tavolsag2" id="" min="10" step="10">
+		<br>
+		<label for="">Osztály:</label>
+		<select name="sosztaly" id="">
+			<option value="0">-- Válaszza ki az osztályt --</option>
+			<option value="1">1. Osztály</option>
+			<option value="2">2. Osztály</option>
+		</select>
+		<br>
+		<input type="radio" name="osztaly" id="" value="1">
+		<label for="">1. osztály</label>
+		<br>
+		<input type="radio" name="osztaly" id="" value="2" checked>
+		<label for="">2. osztály</label>
+		<br>
+		<input type="submit" value="Kiszámol">
+		<label for="">Kedvezmény:</label>
+		<input type="text" name="kedv" id="" list="kedv">
+		<datalist id="kedv">
+			<option value="10%">
+			<option value="33%">
+			<option value="50%">
+			<option value="100%">
+		</datalist>
+		<input type="reset" name="Alaphelyzet">
+	</form>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <title>Esport</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="esport.css">
+  <link rel="stylesheet" href="kepek.css">
+  <script src="szavazas.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+  
+<div class="jumbotron bg-fej text-center">
+  <h1>Pollák e-sport verseny</h1>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <h5>Örömmel bejelentjük, hogy nemsokára megrendezésre kerül a Pollák e-sport verseny.
+        </h5>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 bg-torzs">
+      <h3>Szervezők</h3>
+      <p>
+        A szervező iskola, a <a href="https://pollak.hu/">Pollák</a>, a környék egyetlen olyan intézménye, amely rendez ilyen fajta versenyeket, kedvezve ezzel a játszani szerető diákoknak.
+        </p>
+        <p>Az első fordulók a szervező iskolában lesznek megrendezve, Szentesen.</p>
+        <p><a href="https://www.google.com/maps/place/H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhelyi+SZC+Szentesi+Poll%C3%A1k+Antal+Technikum/@46.654068,20.2638633,17z/data=!3m1!4b1!4m5!3m4!1s0x47440bd7aff69e3d:0x79633babdda58f6a!8m2!3d46.654068!4d20.266052">Az iskola címe</a></p>
+    </div>
+
+    <div class="col-md-4 bg-torzs2">
+      <h3>Szabályzat</h3>
+      <ul>
+          <li>Tilos csalásokat, illetve a játék megkönnyebbítésére szolgáló programokat használni!</li>
+          <li>A regisztrált csapat tagjai nem cserélhetnek külső emberekkel helyet.</li>
+          <li>A perifériákat az iskola biztosítja, sajátot tilos hozni!</li>
+      </ul>
+    </div>
+
+    <div class="col-md-4 bg-torzs">
+      <h3>Időpontok</h3>
+      <table>
+        <tr>
+      <th>Időpontok</th>
+      <th>Játékok</th>
+      <th>Helyszínek</th>
+        </tr>
+        <tr>
+      <td>2022.01.28.</td>
+      <td>League of Legends</td>
+      <td>Számtech. V.</td>
+        </tr>
+        <tr>  
+      <td>2022.01.28</td>
+      <td>CS:GO</td>
+      <td>Számtech. II.</td>
+        </tr>  
+        <tr>
+          <td>2022.01.29.</td>
+          <td>League of Legends</td>
+          <td>Számtech. IV.</td>
+            </tr>
+            <tr>
+              <td>2022.01.29.</td>
+              <td>Rocket League</td>
+              <td>Számtech. V.</td>
+                </tr>
+               
+    </table>
+    <p><a href="https://www.twitch.tv/pollak_esport">Az iskola Twitch oldala</a></p>
+
+    </div>
+  </div>
+
+</div>
+ <div><h3 align="center">Képek</h3></div>
+<div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="kep1.jpg" class="slide" width="500" height="300" />
+        <img src="kep2.jpg" class="slide" width="500" height="300" />
+        <img src="kep3.jpg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+<form action="" method="post" class="border">
+  <div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+      <label for="elso" class="form-label">1. helyezett</label>           
+      <select class="form-select" aria-label="Default select example" id="elso" required onchange="Csere('elso')">
+          <option selected>Válassz csapatot!</option>
+          <option value="1">Szentesfive</option>
+          <option value="2">Bubiharcosok</option>
+          <option value="3">Telekom</option>
+          <option value="4">2EZ</option>
+        </select>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+      <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <label for="fmasodik" class="form-label">2. helyezett</label>
+      <select class="form-select" aria-label="Default select example" id="masodik" required>       
+        <option selected>Válassz csapatot!</option>
+        <option value="1">Szentesfive</option>
+        <option value="2">Bubiharcosok</option>
+        <option value="3">Telekom</option>
+        <option value="4">2EZ</option>        
+        </select>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+      <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <label for="fharmadik2" class="form-label">3. helyezett</label>
+      <select class="form-select" aria-label="Default select example" id="harmadik" required>
+          <option selected>Válassz csapatot!</option>
+          <option value="1">Szentesfive</option>
+          <option value="2">Bubiharcosok</option>
+          <option value="3">Telekom</option>
+          <option value="4">2EZ</option>
+        </select>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-2">
+      <button class="btn btn-primary" type="submit" onclick="alert('Sikeresen szavaztál!')">Szavazok</button>
+  </div>
+  <div class="col-md-6"></div>
+  </div>  
+</form>
+
+<br><br><br><br><br>
+
+</body>
+</html>
