@@ -1,0 +1,55 @@
+body{
+  color: #293647;
+}
+
+h5{
+  text-align: justify;
+}
+
+.bg-fej {
+  background-color: black;
+  background-position: center;
+  padding-top: 75px;
+  height: 250px;
+}
+
+.bg-fej h1{
+  color: white;
+  font-size: 500%;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+
+.container{
+  margin-bottom: 25px;
+}
+
+.bg-torzs {
+  background-color:rgb(186, 217, 228);
+}
+
+h3{
+  margin: 25px 0px;
+}
+
+a {
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer{
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.bg-torzs2{
+  border: 2px solid;
+  border-color: rgb(186, 217, 228);
+}
